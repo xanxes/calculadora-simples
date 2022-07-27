@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body
+{background-color: rgb(163, 114, 161);
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+input {
+    width: 400px;
+}
+
+div{
+    height: 100px;
+    width: 400px;
+    padding: 16px;
+    border: 2px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    
+    
+}
