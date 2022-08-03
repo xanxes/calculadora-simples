@@ -1,14 +1,20 @@
 'use strict'
 
-function juntarNome () {
+ // pegar o elemento do visor
+ var visor = document.getElementById("visor");
 
-    const nome = document.getElementById('nome').value
-    const sobrenome = document.getElementById('sobrenome').value
-    const resultado = document.getElementById('resultado')
+ // quando uma tecla for pressionada, seu valor vai pro visor
+ function adicionae(tecla) {
+   visor.value = visor.value + tecla;
+ }
 
-    const nomeCompleto = `Seu nome completo é: ${nome} ${sobrenome}`
-    resultado.textContent = nomeCompleto
-}
+ // quando o "c" for pressionado limpa o visor
+ function limpezatotal() {
+   visor.value = "";
+   alert("Apagando... ✨");
+ }
 
-document.getElementById('juntar').addEventListener('click',juntarNome)
-
+ // quando o "=" for pressionado calcula
+ function calculari() {
+   visor.value = eval(visor.value);
+ }

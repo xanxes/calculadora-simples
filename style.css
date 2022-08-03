@@ -1,32 +1,109 @@
-*{
-    box-sizing: border-box;
 
-}
-
-body
-{background-color: rgb(163, 114, 161);
-}
-
-
-form{
+body{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 10px;
-    
+    justify-content: center;
+    background-color: #F5F4F4;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-input {
-    width: 400px;
+@media (min-width: 300px) {
+  body {
+    background-size: 140vw;
+  }
+
+  .main {
+    zoom: 40%
+  }
 }
 
-div{
-    height: 100px;
-    width: 400px;
-    padding: 16px;
-    border: 2px solid white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    
-    
+@media (min-width: 460px) {
+  body {
+    background-size: 110vw;
+  }
 }
+
+@media (min-width: 1100px) {
+  body {
+    background-size: 100vw;
+  }
+}
+
+@media (min-width: 1300px) {
+  body {
+    background-size: 90vw;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-size: 80vw;
+  }
+}
+
+.main {        
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: solid 1px #3A3B3B;
+    padding: 40px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(22, 22, 22);
+    width: 385px;
+  }
+
+  .btn {
+    color: #3A3B3B;
+    font-family: Internet Friends;
+    font-size: 30px;
+    width: 80px;
+    height: 70px;
+    margin: 5px;
+    background-color: #F5F4F4;
+    border-radius: 15%;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+  }
+
+
+  .multi{
+    width: 80px;
+    height: 70px; 
+
+
+  }
+
+
+  .clear {
+    width: 170px;
+    border-radius: 10px;
+
+  }
+
+  .igual {
+    height: 150px;
+    width: 80px;
+    border-radius: 10px;
+
+  }
+
+  .zero {
+    width: 170px;
+    border-radius: 10px;
+  }
+
+  
+
+  .visor {
+    width: 370px;
+    text-align: right;
+    font-size: 50px;
+    font-family: Internet Friends;
+    color: #3A3B3B;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #F5F4F4;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+  }
