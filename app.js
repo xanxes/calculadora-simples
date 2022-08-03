@@ -11,7 +11,7 @@
  // quando o "c" for pressionado limpa o visor
  function limpezatotal() {
    visor.value = "";
-   alert("Apagando... ✨");
+   alert("Apagando...");
  }
 
  // quando o "=" for pressionado calcula
